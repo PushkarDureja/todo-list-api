@@ -1,0 +1,39 @@
+body{
+	background-color:#d5e0d8!important;
+}
+
+h1 + p{
+	opacity:0.3;
+}
+.line{
+	text-decoration:line-through;
+	opacity:0.3;
+}
+div.abc{
+	width:400px;
+	height:400px;
+	display:inline-block;
+}
+div.container{
+	text-align:center!important;
+	margin-top:100px;
+}
+ul{
+	text-align:justify;
+}
+input{
+width:100%;
+}
+li:hover span{
+	background-color:#fa4343;
+	opacity:1
+	
+
+}
+li span{
+	opacity:0;
+	color:white;
+	transition: all 0.3s ease-in-out;
+	width:20px;
+	text-align:center;
+}
